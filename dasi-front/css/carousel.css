@@ -72,11 +72,11 @@ a:focus:not(:focus-visible),
   position: relative;
 }
 .Carousel > div:empty:first-child {
-  inset-inline-start: 10%;
+  inset-inline-start: 0;
   margin-inline-end: calc(-1 * var(--carousel-gap));
 }
 .Carousel > div:empty:last-child {
-  inset-inline-end: 10%;
+  inset-inline-end: 0;
   margin-inline-start: calc(-1 * var(--carousel-gap));
 }
 
